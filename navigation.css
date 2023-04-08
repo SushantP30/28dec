@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+ display: flex;
+justify-content: space-evenly;
+background-color: blue;
+height: 3rem;
+color: white;
+font-weight: bold ;
+margin-top: 30px;
+}
+
+.items{
+margin-top: 20px;
+ text-align:center;
+
+}
+
+.item:hover{
+    background-color: darkorange;
+    margin-left: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+#item-image{
+    height: 3rem;
+}
+#user_profile{
+    height: 3rem;
+}
+#user_profile:hover{
+    height: 5rem;
+}
